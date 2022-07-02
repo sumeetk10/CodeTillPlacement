@@ -1,11 +1,11 @@
-package Linked List;
+package Linked_List;
 import java.util.ArrayList;
 
 class ListNode
     {
         int data;
-        Node next;
-        Node(int d) {data = d; next = null; }
+        ListNode next;
+        ListNode(int d) {data = d; next = null; }
     }
 public class CheckPalindrom {
     // Approach 1 using arraylist
@@ -16,7 +16,7 @@ public class CheckPalindrom {
         
         ListNode temp = head;
         while(temp != null) {
-            list.add(temp.val);
+            list.add(temp.data);
             temp = temp.next;
         }
         

@@ -1,4 +1,4 @@
-package Linked List;
+package Linked_List;
 
 public class DeleteNodeInLL {
     Node deleteNode(Node head, int x)
@@ -22,4 +22,5 @@ public class DeleteNodeInLL {
 	    temp2.next = temp2.next.next;
 	}
 	return head;
+}
 }

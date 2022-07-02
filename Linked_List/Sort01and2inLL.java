@@ -1,4 +1,6 @@
-package Linked List;
+package Linked_List;
+
+import java.util.Arrays;
 
 public class Sort01and2inLL {
     //Function to sort a linked list of 0s, 1s and 2s.

@@ -1,7 +1,10 @@
+package Linked_List;
+
 public class ReverseLL {
     class Node {
         int data;
          Node next;
+         
          Node(int d)  { data = d;  next = null; }
      }
     Node reverseList(Node head)

@@ -1,4 +1,4 @@
-package Linked List.Linked;
+package Linked_List;
 
 public class DeleteMiddleNodeLL {
     class Solution {

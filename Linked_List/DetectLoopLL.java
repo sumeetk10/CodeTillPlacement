@@ -1,3 +1,5 @@
+package Linked_List;
+
 public class DetectLoopLL {
     class Node
 {

@@ -1,3 +1,5 @@
+package Linked_List;
+
 public class NthNodeFromEnd {
     class Node {
         int data;

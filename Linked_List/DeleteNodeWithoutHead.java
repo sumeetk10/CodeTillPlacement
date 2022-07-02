@@ -1,4 +1,4 @@
-package Linked List;
+package Linked_List;
 
 public class DeleteNodeWithoutHead {
     void deleteNode(Node del)
