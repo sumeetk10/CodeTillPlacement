@@ -13,7 +13,7 @@ public class RotateArray {
         reverse(arr,0,(n-1));
     }
     else{
-       if(d>n){
+       if(d>n){   // if cycle exist,reduce the steps
            d=d-n;
        reverse(arr,0,(d-1));
        reverse(arr,d,(n-1));

@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class EquilibriumPoint {                 //leftsum == rightsum
     class Solution {
